@@ -40,6 +40,11 @@ const Main = () => {
             date="4.03.2020"
             circles={3}
           />
+          <FirstSquare
+            project="Client Documents"
+            date="4.03.2020"
+            circles={4}
+          />
         </div>
       </section>
 
@@ -88,6 +93,11 @@ const Main = () => {
             circles={3}
           />
           <ThirdSquare project="CV Design" date="20.02.2020" circles={2} />
+          <ThirdSquare
+            project="Illustration Pack"
+            date="20.02.2020"
+            circles={3}
+          />
         </div>
       </section>
     </div>
