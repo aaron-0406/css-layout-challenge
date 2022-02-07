@@ -1,5 +1,6 @@
 import Square from "../Square";
 import SectionTitle from "../main/SectionTitle";
+import FirstSquare from "../main/FirstSquare";
 
 const Main = () => {
   return (
@@ -25,6 +26,21 @@ const Main = () => {
 
       <section className="main-container__second">
         <SectionTitle title="Recently Used" text="" />
+        <div className="main-container__circles">
+          <FirstSquare project="App Project" date="20.02.2020" circles={2} />
+          <FirstSquare
+            project="Project: fitbit"
+            date="28.02.2020"
+            circles={2}
+          />
+          <FirstSquare
+            project="Client Documents"
+            date="4.03.2020"
+            circles={3}
+          />
+        </div>
+
+        <SectionTitle title="Recent Files" text="View All" />
       </section>
     </div>
   );

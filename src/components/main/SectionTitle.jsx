@@ -1,8 +1,8 @@
 const SectionTitle = ({ title, text }) => {
   return (
-    <div>
-      <p>{title}</p>
-      <p>{text}</p>
+    <div className="section-title">
+      <p className="section-title__first">{title}</p>
+      <p className="section-title__second">{text}</p>
     </div>
   );
 };
