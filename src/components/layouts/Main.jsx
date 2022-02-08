@@ -83,6 +83,7 @@ const Main = () => {
         </div>
       </section>
 
+
       <section className="main-container__fourth">
         <SectionTitle title="Share with me" text="View All" />
         <div className="main-container__fourth-squares">
